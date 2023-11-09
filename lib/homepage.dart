@@ -126,7 +126,6 @@ class Homepage extends StatelessWidget {
                                     ),
                                   ),
                                   Positioned(
-                                    // ellipse2AGZ (143:6422)
                                     left: 0*fem,
                                     top: 40*fem,
                                     child: Align(
@@ -143,7 +142,6 @@ class Homepage extends StatelessWidget {
                                     ),
                                   ),
                                   Positioned(
-                                    // mingcutenotificationlinefj7 (143:6423)
                                     left: 6*fem,
                                     top: 46*fem,
                                     child: Align(
@@ -278,7 +276,6 @@ class Homepage extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  // autogroupusgbYbs (Ate4imDLrvT4R9KC6UuSGb)
                   margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 8*fem),
                   width: double.infinity,
                   height: 160*fem,
@@ -292,7 +289,6 @@ class Homepage extends StatelessWidget {
                         child: Stack(
                           children: [
                             Positioned(
-                              // rectangle63o21 (147:6476)
                               left: 20*fem,
                               top: 0*fem,
                               child: Align(
@@ -309,7 +305,6 @@ class Homepage extends StatelessWidget {
                               ),
                             ),
                             Positioned(
-                              // sensorbuah6Wu (147:6478)
                               left: 44*fem,
                               top: 11*fem,
                               child: Align(
@@ -386,7 +381,6 @@ class Homepage extends StatelessWidget {
                               ),
                             ),
                             Positioned(
-                              // fpdl2c1P (173:6501)
                               left: 99*fem,
                               top: 43*fem,
                               child: Align(
@@ -462,7 +456,6 @@ class Homepage extends StatelessWidget {
                                     ),
                                   ),
                                   Container(
-                                    // matikansemuasensorbuah9SZ (148:6489)
                                     constraints: BoxConstraints (
                                       maxWidth: 88*fem,
                                     ),
@@ -481,14 +474,12 @@ class Homepage extends StatelessWidget {
                               ),
                             ),
                             Container(
-                              // group548rbs (175:6538)
                               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 21*fem, 0*fem),
                               width: 114*fem,
                               height: double.infinity,
                               child: Stack(
                                 children: [
                                   Positioned(
-                                    // rectangle66Bu3 (173:6520)
                                     left: 0*fem,
                                     top: 2*fem,
                                     child: Align(
@@ -505,7 +496,6 @@ class Homepage extends StatelessWidget {
                                     ),
                                   ),
                                   Positioned(
-                                    // nyalakansemuasensor6WD (173:6531)
                                     left: 16*fem,
                                     top: 69*fem,
                                     child: Align(
@@ -526,7 +516,6 @@ class Homepage extends StatelessWidget {
                                     ),
                                   ),
                                   Positioned(
-                                    // materialsymbolssensorsroundedP (175:6548)
                                     left: 27*fem,
                                     top: 16.0843505859*fem,
                                     child: Align(
@@ -545,7 +534,6 @@ class Homepage extends StatelessWidget {
                               ),
                             ),
                             Container(
-                              // group549G3K (175:6539)
                               padding: EdgeInsets.fromLTRB(8.5*fem, 13.32*fem, 9.5*fem, 13.92*fem),
                               width: 114*fem,
                               decoration: BoxDecoration (
@@ -556,7 +544,6 @@ class Homepage extends StatelessWidget {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
                                   Container(
-                                    // tdesignsensors1AuP (173:6529)
                                     margin: EdgeInsets.fromLTRB(1*fem, 0*fem, 0*fem, 12.32*fem),
                                     width: 54*fem,
                                     height: 41.37*fem,
@@ -567,7 +554,6 @@ class Homepage extends StatelessWidget {
                                     ),
                                   ),
                                   Container(
-                                    // nyalakansemuasensorsayurtaV (173:6532)
                                     constraints: BoxConstraints (
                                       maxWidth: 96*fem,
                                     ),
@@ -589,7 +575,6 @@ class Homepage extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        // logsCbB (160:6495)
                         margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 15*fem),
                         child: Text(
                           'Logs',
@@ -602,7 +587,6 @@ class Homepage extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        // autogroup6vjvvn5 (Ate5Yf1D2nCaaXrHvM6vjV)
                         margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 19*fem),
                         padding: EdgeInsets.fromLTRB(13*fem, 8*fem, 19.5*fem, 8*fem),
                         width: double.infinity,
@@ -615,7 +599,6 @@ class Homepage extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Container(
-                              // image9RTw (173:6502)
                               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 14*fem, 0*fem),
                               width: 75*fem,
                               height: 75*fem,
@@ -625,14 +608,12 @@ class Homepage extends StatelessWidget {
                               ),
                             ),
                             Container(
-                              // autogrouptcbdLqo (Ate5mEUat56fAsb4KWTCBD)
                               margin: EdgeInsets.fromLTRB(0*fem, 7*fem, 17.5*fem, 6*fem),
                               height: double.infinity,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Container(
-                                    // sensorb44mo (173:6503)
                                     margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 2*fem),
                                     child: Text(
                                       '28/10/23 - 06:40 - Sensor-B4',
@@ -645,7 +626,6 @@ class Homepage extends StatelessWidget {
                                     ),
                                   ),
                                   Container(
-                                    // stokstrawberrybertambahtotal10 (173:6504)
                                     constraints: BoxConstraints (
                                       maxWidth: 237*fem,
                                     ),
@@ -676,7 +656,6 @@ class Homepage extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        // autogroupwfqpPSh (Ate5zovJ8sNvtAfjoCWFQP)
                         margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 17*fem),
                         padding: EdgeInsets.fromLTRB(13*fem, 6*fem, 19.5*fem, 8*fem),
                         width: double.infinity,
@@ -689,7 +668,6 @@ class Homepage extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Container(
-                              // image13fv1 (173:6507)
                               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 12*fem, 0*fem),
                               width: 77*fem,
                               height: 77*fem,
@@ -699,14 +677,12 @@ class Homepage extends StatelessWidget {
                               ),
                             ),
                             Container(
-                              // autogroupykhmCQ9 (Ate6Y8MSqQhbyQ6QunYKHm)
                               margin: EdgeInsets.fromLTRB(0*fem, 5*fem, 36.5*fem, 10*fem),
                               height: double.infinity,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Container(
-                                    // sensorb2XBX (173:6505)
                                     margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 2*fem),
                                     child: Text(
                                       '28/10/23 - 06:05 - Sensor-B2',
@@ -719,7 +695,6 @@ class Homepage extends StatelessWidget {
                                     ),
                                   ),
                                   Container(
-                                    // stokanggurbertambahtotal20kgdk (173:6506)
                                     constraints: BoxConstraints (
                                       maxWidth: 202*fem,
                                     ),
@@ -737,7 +712,6 @@ class Homepage extends StatelessWidget {
                               ),
                             ),
                             Container(
-                              // bithreedotsvertical9yb (173:6514)
                               margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 0*fem, 0*fem),
                               width: 9*fem,
                               height: 39*fem,
@@ -751,7 +725,6 @@ class Homepage extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        // autogroup8bky4am (Ate6m39bpY4QwPcV188BKy)
                         padding: EdgeInsets.fromLTRB(19*fem, 15.95*fem, 19.5*fem, 22.95*fem),
                         width: double.infinity,
                         height: 91*fem,
@@ -763,7 +736,6 @@ class Homepage extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Container(
-                              // tdesignsensors1ZnR (173:6508)
                               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 16*fem, 0*fem),
                               width: 68*fem,
                               height: 52.09*fem,
@@ -774,14 +746,12 @@ class Homepage extends StatelessWidget {
                               ),
                             ),
                             Container(
-                              // autogroupgt2bgMF (Ate6yCU1FXt5Zfd7nZgT2b)
                               margin: EdgeInsets.fromLTRB(0*fem, 7.05*fem, 56.5*fem, 9.05*fem),
                               height: double.infinity,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Container(
-                                    // C4h (173:6511)
                                     margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 4*fem),
                                     child: Text(
                                       '28/10/23 - 06:00',
@@ -794,7 +764,6 @@ class Homepage extends StatelessWidget {
                                     ),
                                   ),
                                   Text(
-                                    // semuasensormenyalaVpV (173:6510)
                                     'Semua sensor menyala',
                                     style: GoogleFonts.poppins (
                                       fontSize: 16*ffem,
@@ -807,7 +776,6 @@ class Homepage extends StatelessWidget {
                               ),
                             ),
                             Container(
-                              // bithreedotsvertical2ZX (173:6512)
                               margin: EdgeInsets.fromLTRB(0*fem, 8*fem, 0*fem, 0*fem),
                               width: 9*fem,
                               height: 39*fem,

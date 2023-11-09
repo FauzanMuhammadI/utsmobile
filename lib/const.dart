@@ -15,6 +15,7 @@ String strawberry = "assets/images/strawberry.png";
 String anggur = "assets/images/anggur.png";
 String toggle = "assets/images/switch.png";
 String bmi = "assets/images/bmi img.png";
+String logo = "assets/images/logo.png";
 
 String box = "assets/icons/box.png";
 String sensor = "assets/icons/sensor.png";

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:utsmobile/const.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'homepage.dart';
+import 'navigation.dart';
 import 'register.dart';
 
 class Login extends StatefulWidget {
@@ -60,15 +61,33 @@ class _LoginPageState extends State<Login> {
             passwordErrorText = "Password salah";
           });
         } else {
-          // Username dan password benar, lanjutkan ke halaman register
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (context) => Homepage()),
+          // Username dan password benar, tampilkan pop-up
+          showDialog(
+            context: context,
+            builder: (BuildContext context) {
+              return AlertDialog(
+                title: Text('Selamat Datang'),
+                content: Text('Login berhasil!'),
+                actions: <Widget>[
+                  TextButton(
+                    child: Text('OK'),
+                    onPressed: () {
+                      Navigator.of(context).pop(); // Tutup pop-up
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => NavigationPage()),
+                      );
+                    },
+                  ),
+                ],
+              );
+            },
           );
         }
       }
     }
   }
+
 
   @override
   Widget build(BuildContext context) {

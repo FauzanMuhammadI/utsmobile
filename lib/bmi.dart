@@ -24,7 +24,7 @@ class _BMIState extends State<BMI> {
       backgroundColor: Color(0xff040018),
       appBar: AppBar(
         title: Text(
-          'Konversi Uang',
+          'Kalkulator BMI',
           style: GoogleFonts.poppins(
             fontSize: 20,
             fontWeight: FontWeight.w600,

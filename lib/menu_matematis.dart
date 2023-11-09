@@ -4,9 +4,7 @@ import 'package:utsmobile/bmi.dart';
 import 'package:utsmobile/kalkulator.dart';
 import 'package:utsmobile/konversi_suhu.dart';
 import 'package:utsmobile/konversi_uang.dart';
-
-import 'hitung_luas.dart';
-import 'index_nilai.dart';
+import 'package:utsmobile/index_nilai.dart';
 
 class MenuMatematis extends StatelessWidget {
   const MenuMatematis({Key? key}) : super(key: key);
@@ -14,23 +12,17 @@ class MenuMatematis extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double baseWidth = 430;
-    double fem = MediaQuery
-        .of(context)
-        .size
-        .width / baseWidth;
+    double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
     return Scaffold(
       backgroundColor: Color(0xff040018),
-      body: Padding(
-        padding: const EdgeInsets.all(0.0),
-        child: ListView(
+      body: ListView(
           children: <Widget>[
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  margin: EdgeInsets.fromLTRB(
-                      0 * fem, 0 * fem, 0 * fem, 18 * fem),
+                  margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 18 * fem),
                   width: double.infinity,
                   height: 145 * fem,
                   decoration: BoxDecoration(
@@ -102,7 +94,7 @@ class MenuMatematis extends StatelessWidget {
                   );
                 },
                 leading: Icon(
-                  Icons.sunny_snowing,
+                  Icons.sunny,
                   size: 50,
                 ),
                 title: Text('Konversi Suhu'),
@@ -133,7 +125,7 @@ class MenuMatematis extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const IndexNilai()),
+                    MaterialPageRoute(builder: (context) => IndexNilai()),
                   );
                 },
                 leading: Icon(
@@ -146,7 +138,6 @@ class MenuMatematis extends StatelessWidget {
             ),
           ],
         ),
-      ),
     );
   }
   }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:utsmobile/bmi.dart';
 import 'package:utsmobile/menu_matematis.dart';
 import 'package:utsmobile/navigation.dart';
+import 'package:utsmobile/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Aplikasi',
       theme: ThemeData(fontFamily: "SF-Pro-Text"),
-      home: NavigationPage(),
+      home: Splashscreen(),
     );
   }
 }

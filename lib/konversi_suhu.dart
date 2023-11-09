@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class KonversiSuhu extends StatefulWidget {
+
   @override
   _KonversiSuhuState createState() => _KonversiSuhuState();
 }
@@ -45,17 +47,35 @@ class _KonversiSuhuState extends State<KonversiSuhu> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xff040018),
       appBar: AppBar(
-        title: Text('Temperature Converter'),
+        title: Text('Konversi Suhu', style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.white)),
+        backgroundColor: Color(0xff008c24),
       ),
       body: Padding(
         padding: EdgeInsets.all(20.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text(
+              '$result $toUnit',
+              style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white),
+            ),
+            SizedBox(height: 20),
             TextField(
               keyboardType: TextInputType.number,
-              decoration: InputDecoration(labelText: 'Input value'),
+              decoration: InputDecoration(
+                labelText: 'Masukan nilai suhu',
+                labelStyle: TextStyle(color: Colors.grey),
+                enabledBorder: OutlineInputBorder(
+                  borderSide: BorderSide(color: Colors.grey),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderSide: BorderSide(color: Colors.grey),
+                ),
+                fillColor: Colors.white,
+                filled: true,
+              ),
               onChanged: (value) {
                 setState(() {
                   inputValue = double.tryParse(value) ?? 0;
@@ -76,11 +96,11 @@ class _KonversiSuhuState extends State<KonversiSuhu> {
                   items: temperatureUnits.map<DropdownMenuItem<String>>((String value) {
                     return DropdownMenuItem<String>(
                       value: value,
-                      child: Text(value),
+                      child: Text(value, style: TextStyle(color: Colors.green)),
                     );
                   }).toList(),
                 ),
-                Text('to'),
+                Text('Konversi menjadi', style: TextStyle(color: Colors.white)),
                 DropdownButton<String>(
                   value: toUnit,
                   onChanged: (String? newValue) {
@@ -91,7 +111,7 @@ class _KonversiSuhuState extends State<KonversiSuhu> {
                   items: temperatureUnits.map<DropdownMenuItem<String>>((String value) {
                     return DropdownMenuItem<String>(
                       value: value,
-                      child: Text(value),
+                      child: Text(value, style: TextStyle(color: Colors.green)),
                     );
                   }).toList(),
                 ),
@@ -102,13 +122,12 @@ class _KonversiSuhuState extends State<KonversiSuhu> {
               onPressed: () {
                 convertTemperature();
               },
-              child: Text('Convert'),
+              child: Text('Convert', style: TextStyle(color: Colors.white)),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Color(0xff008c24),
+              ),
             ),
-            SizedBox(height: 20),
-            Text(
-              '$result $toUnit',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-            ),
+
           ],
         ),
       ),
